@@ -11,44 +11,47 @@
   <div class= "container">
     <h1>Tells us something about yourself</h1>
     <div>
-      <form id="formOne"></form>
+      <form id="formOne">
         <div class='form-group'>
           <label for="name">Your Name</label>
           <input id="name" class='form-control' type="text">
         </div>
-    </div>
-    <select class="form-control" id="food">
-      <option>Pizza</option>
-      <option>Donuts</option>
-      <option>Burgers</option>
-      <option>Cheese</option>
-    </select>
-    <div class="radio">
-        <label>
-          <input type="radio" name="music" value="Jazz">
-          Jazz
-        </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="music" value="Ska">
-        Ska
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="music" value="Rock">
-        Rock
-      </label>
-    </div>
-      <div class="form-group">
-        <label for="born">Date of birth:</label>
-        <input id="born" class="form-control" type="date">
+      <select class="form-control" id="food">
+        <option>Pizza</option>
+        <option>Donuts</option>
+        <option>Burgers</option>
+        <option>Cheese</option>
+      </select>
+      <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Jazz">
+            Jazz
+          </label>
       </div>
-    <div class ="form-group">
-      <label for="color">What is your favorite color</label>
-      <input id="color" class="form-control" type="color">
-    </div> 
+      <div class="radio">
+        <label>
+          <input type="radio" name="music" value="Ska">
+          Ska
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="music" value="Rock">
+          Rock
+        </label>
+      </div>
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+      <div class ="form-group">
+        <label for="color">What is your favorite color</label>
+        <input id="color" class="form-control" type="color">
+      </div> 
+      <button type="submit" class="btn">Submit!</button>
+    </form>
+    <p class="output">Hello <span class="name"></span>! Your favorite food is <span class="food"></span>, your favorite music is <span class="music"></span>, your favorite color has the hex code of <span class="color"></span> and you were born on <span class="born"></span>!</p>
+    </div>
   </div>
 </body>
 </html> 
